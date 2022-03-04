@@ -5,7 +5,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+ h1{
     font-size: 60px;
     color: white;
     text-shadow: 0px 4px 4px black;
@@ -44,8 +44,6 @@ h1{
 .section{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
-     /* margin-top: 5%;
-     margin-left: 5%; */
      margin: 10%;
  }
 .players{
@@ -66,30 +64,19 @@ h1{
  .player-img:hover{
      transform: rotateY(360deg);
      transition: 2s;
- }
+ } 
 
 
 
  /* ------------------footer --------------------*/
 
-
-.football{
+ .football{
     width: 443px;
     height: 110px;
     display: block;
      margin-left: auto;
      margin-right: auto;
 }
-/* .football{
-    width: 100%;
-    width: 10px;
-     width: 443px;
-     height: 110px;
-     margin-top: 10%;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-} */
 
 .icon{
     text-align: center;
